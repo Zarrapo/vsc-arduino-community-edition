@@ -53,6 +53,8 @@ arduino-cli  Version: 1.1.1 Commit: fa6eafcb Date: 2024-11-22T09:31:38Z
 
 ### 3.1 Instalar la extensión de Arduino
 
+![Arduino Community Edition](https://raw.githubusercontent.com/Zarrapo/vsc-arduino-community-edition/refs/heads/main/images/Extension.png)
+
 1. Abre **Visual Studio Code**.
 2. Ve a **Extensiones** (`Ctrl+Shift+X`).
 3. Busca `Arduino` e instala **Arduino Community Edition**.
