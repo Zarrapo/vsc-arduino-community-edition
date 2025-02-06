@@ -61,6 +61,8 @@ arduino-cli  Version: 1.1.1 Commit: fa6eafcb Date: 2024-11-22T09:31:38Z
 
 ### 3.2 Configurar Arduino CLI en VS Code
 
+![Configuracion](https://raw.githubusercontent.com/Zarrapo/vsc-arduino-community-edition/refs/heads/main/images/ConfiguracionArduinoCLIenVSC.png)
+
 1. Abre la configuración (`Ctrl+,`).
 2. Si deseas usar la versión integrada de Arduino CLI, **deja vacío** `Arduino: Path` y `Arduino: Command Path`.
 3. Si prefieres usar una versión instalada manualmente, configura `Arduino: Path` con la ruta correspondiente, por ejemplo:
@@ -128,6 +130,8 @@ Desde VS Code:
 - Escribe `Arduino: Verify` (`Ctrl+Alt+R`).
 
 > También podemos utilizar los botones de la interfaz de VSC.
+
+![Botones](https://raw.githubusercontent.com/Zarrapo/vsc-arduino-community-edition/refs/heads/main/images/BotonesArduino.png)
 
 ### 5.3 Subir el sketch
 
