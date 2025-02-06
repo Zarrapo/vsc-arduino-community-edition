@@ -1,8 +1,8 @@
-# Configuración de Arduino CLI en Visual Studio Code (Windows)
+# Configuración Visual Studio Code con la Extesión para Arduino
 
 ## Introducción
 
-Este documento proporciona una guía detallada para configurar y utilizar Visual Studio Code (VS Code) con la extensión Arduino para desarrollar y programar placas Arduino en sistemas Windows. Se centra en la solución de problemas comunes y proporciona los comandos necesarios para listar placas y encontrar el puerto COM utilizado.
+Este documento proporciona una guía detallada para configurar y utilizar Visual Studio Code (VS Code) en Windows con la extensión Arduino para desarrollar y programar placas Arduino en sistemas Windows. Se centra en la solución de problemas comunes y proporciona los comandos necesarios para listar placas y encontrar el puerto COM utilizado.
 
 ## 1. Requisitos previos
 
@@ -12,7 +12,7 @@ Este documento proporciona una guía detallada para configurar y utilizar Visual
 - **Extensión de Arduino para VS Code** instalada
 - Placa Arduino: **Arduino Uno**
 
-> 💡 Se recomienda usar una placa original durante la primera configuración para evitar problemas de drivers, en su defecto asegurate de tener instalados adecuamente los drivers de tu placa. Aunque el "Arduino IDE" reconozca una placa no garantiza que la extensión también la reconozca.
+> 💡 Se recomienda usar una placa original durante la primera configuración para evitar problemas de drivers, en su defecto asegúrate de tener instalados adecuadamente los drivers de tu placa. Aunque el "Arduino IDE" reconozca una placa no garantiza que la extensión también la reconozca.
 
 ## 2. Instalación de Arduino CLI
 
@@ -21,7 +21,7 @@ Este documento proporciona una guía detallada para configurar y utilizar Visual
 1. Descarga Arduino CLI desde la página oficial:
    - [https://github.com/arduino/arduino-cli/releases/tag/v1.1.1](https://github.com/arduino/arduino-cli/releases/tag/v1.1.1)
 2. Selecciona la versión adecuada:
-   - **`arduino-cli_1.1.1_Windows_64bit.msi`** → Instalador automático que configura el Path automáticamente (Recomendado para usuarios nuevos).
+   - **`arduino-cli_1.1.1_Windows_64bit.msi`** → Instalador automático que configura el Path automáticamente.
    - **`arduino-cli_1.1.1_Windows_64bit.zip`** → Requiere configuración manual del Path.
 3. Si descargas la versión `.zip`, extrae el archivo en una ubicación accesible, por ejemplo:
 
@@ -168,6 +168,5 @@ Si no aparece la ruta correcta, verifica que **`arduino-cli.exe` esté en el Pat
   }
   ```
 
-- Guarda y reinicia VS Code.
-
----
+- Guarda y reinicia VS Code.  
+  
