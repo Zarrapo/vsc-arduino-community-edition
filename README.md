@@ -1,4 +1,4 @@
-# Arduino Community Edition - Instalación y Configuración en VS Code
+# Extensión Arduino Community Edition para VS Code
 
 ## 📌 Introducción
 **Arduino Community Edition** es una extensión para **Visual Studio Code** que facilita el desarrollo, la creación y la implementación de **sketches de Arduino**, proporcionando un amplio conjunto de funcionalidades avanzadas.
